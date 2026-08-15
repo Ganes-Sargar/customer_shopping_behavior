@@ -1,0 +1,24 @@
+# Data
+data/*.csv
+data/*.xlsx
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Environment / secrets
+.env
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Power BI temp files
+*.pbix.bak
+~$*.pbix
