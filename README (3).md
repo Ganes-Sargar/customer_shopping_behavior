@@ -124,7 +124,7 @@ Full problem statement: [`Business_Problem_Statement.pdf`](Business_Problem_Stat
 - Ran a data consistency check comparing `discount_applied` and `promo_code_used`, confirmed they were fully redundant, and dropped the duplicate column
 - Connected the cleaned DataFrame to PostgreSQL (also included: reusable connection patterns for MySQL and SQL Server) and loaded it into a `customer` table for SQL analysis
 
-📓 See [`notebooks/Customer_Shopping_Behavior_Analysis.ipynb`](notebooks/Customer_Shopping_Behavior_Analysis.ipynb)
+📓 See [`Customer_Shopping_Behavior_Analysis.ipynb`](Customer_Shopping_Behavior_Analysis.ipynb)
 
 ---
 
@@ -143,7 +143,7 @@ Ten business questions were answered directly in PostgreSQL, using aggregations,
 9. **Repeat buyers & subscriptions** — whether customers with more than 5 previous purchases are more likely to subscribe
 10. **Revenue by age group** — total revenue contribution of each engineered age group
 
-📄 See [`sql/customer_behavior_sql_queries.sql`](sql/customer_behavior_sql_queries.sql)
+📄 See [`customer_behavior_sql_queries.sql`](customer_behavior_sql_queries.sql)
 
 ---
 
@@ -176,7 +176,7 @@ An interactive dashboard lets stakeholders filter by subscription status, gender
 - **Revenue by age group** and **sales by age group** — bar charts
 - **Slicers:** subscription status, gender, category, and shipping type, so any stakeholder can drill into a specific segment without touching SQL or Python
 
-📁 Open [`dashboard/customer_behavior_dashboard.pbix`](dashboard/customer_behavior_dashboard.pbix) in Power BI Desktop to explore it live.
+📁 Open [`customer_behavior_dashboard.pbix`](customer_behavior_dashboard.pbix) in Power BI Desktop to explore it live.
 
 ---
 
@@ -207,7 +207,7 @@ An interactive dashboard lets stakeholders filter by subscription status, gender
    ```
 
 3. **Add the dataset**
-   Place `customer_shopping_behavior.csv` inside the `data/` folder (see [`data/README.md`](data/README.md)).
+   Place `customer_shopping_behavior.csv` inside (see [`README.md`](README.md)).
 
 4. **Set up local database credentials**
    ```bash
