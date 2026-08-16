@@ -60,7 +60,7 @@ A retail company wants to understand shifting customer purchasing patterns acros
 4. A written report and stakeholder presentation
 5. A well-organized GitHub repository containing all of the above
 
-Full problem statement: [`docs/Business_Problem_Statement.pdf`](docs/Business_Problem_Statement.pdf)
+Full problem statement: [`Business_Problem_Statement.pdf`](Business_Problem_Statement.pdf)
 
 ---
 
